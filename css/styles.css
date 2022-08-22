@@ -1,3 +1,13 @@
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+.conteiner {
+    width: 1200px;
+    padding: 0;
+    margin: 0;
+}
 body {
     font-family: "Roboto", sans-serif;
     font-style: normal;
@@ -7,9 +17,8 @@ body {
     padding: 0;
 }
 .item-header {
-    width: 1600px;
-    height: 42px;
-    padding: 24px;
+    width: 1200px;
+    height: 80px;
 }
 .logo {
     font-weight: 700;
@@ -17,6 +26,10 @@ body {
     line-height: 1.19em;
     letter-spacing: 0.03em;
     font-family: "Raleway", sans-serif;
+    padding-left: 215px;
+    padding-top: 24px;
+    width: 145px;
+    height: 31px;
 }
 :root {
     --blue: #2196f3;
@@ -37,11 +50,10 @@ body {
     color: var(--dark);
 }
 .nav-main {
-    position: absolute;
-    width: 261px;
-    height: 16px;
-    left: 453px;
-    top: 32px;
+    /* padding-top: 8px; */
+    padding-left: 453px;
+    width: 254px;
+    /* height: 16px;  */
 }
 .list {
     display: flex;
@@ -223,7 +235,6 @@ body {
     color: black;
 }
 .logo-address {
-    margin-left: 275px;
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71em;
