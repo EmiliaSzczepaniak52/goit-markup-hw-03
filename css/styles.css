@@ -3,10 +3,11 @@
 *::after {
     box-sizing: border-box;
 }
-.conteiner {
+.container {
     width: 1200px;
     padding: 0;
-    margin: 0;
+    margin: auto;
+    /* background-color: pink; */
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -83,9 +84,8 @@ body {
 .contact-nav {
     display: flex;
     list-style: none;
-    position: absolute;
-    left: 1078px;
-    top: 32px;
+    /* padding-top: 32px; */
+    padding-left: 878px;
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.02em;
@@ -166,26 +166,26 @@ body {
 }
 /* main index.html */
 .item-head {
-    width: 1600px;
     height: 600px;
     background-color: var(--dark);
 }
 .header {
     font-size: 44px;
     line-height: 1.36em;
-    text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-    padding: 200px;
-    padding-bottom: 30px;
     color: var(--white);
+    padding-top: 200px;
+    padding-left: 452px;
+}
+.title {
+    text-align: center;
+}
+.item-button {
+    padding-top: 50px;
+    padding-left: 700px;
 }
 .box-frist {
-    position: absolute;
-    width: 200px;
-    height: 50px;
-    left: 700px;
-    top: 430px;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
 }
@@ -195,6 +195,9 @@ body {
 }
 .lorem {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
 }
 .lorem-list {
     list-style: none;
@@ -217,6 +220,9 @@ body {
 }
 .he-she {
     display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: space-between;
 }
 .our {
     list-style: none;
@@ -225,7 +231,7 @@ body {
 .footer {
     background-color: var(--dark);
     color: var(--white);
-    width: 1600px;
+    width: 1200px;
     height: 252px;
     padding: 10px;
 }
