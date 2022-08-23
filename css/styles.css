@@ -11,21 +11,42 @@ body {
     font-style: normal;
     font-weight: 500;
     background-color: #fff;
-    width: 1400px;
+    width: 1600px;
     margin: auto;
     border: 2px solid grey;
+}
+h1,
+h2,
+h3,
+h4,
+p,
+ul {
+    margin: 0;
+    padding: 0;
 }
 .container {
     width: 1200px;
     padding: 0;
-    margin: auto;
+    margin: 0 auto;
     border: 2px solid red;
+    padding-left: 15px;
+    padding-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
-
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
+}
 .navigation {
     height: 80px;
-    /* display: box; */
-    flex-direction: row;
+    display: flex;
+    align-items: center;
+    /* padding-left: 453px; */
+    width: 254px;
+    height: 16px;
 }
 .logo {
     font-weight: 700;
@@ -33,9 +54,11 @@ body {
     line-height: 1.19em;
     letter-spacing: 0.03em;
     font-family: "Raleway", sans-serif;
-    padding-top: 24px;
+    /* padding-top: 24px; */
     width: 145px;
     height: 31px;
+    text-decoration: none;
+    color: var(--black);
 }
 :root {
     --blue: #2196f3;
@@ -49,22 +72,18 @@ body {
     color: var(--blue);
 }
 .logo-link {
-    text-decoration: none;
-    color: var(--black);
 }
 .logo-link:hover {
     color: var(--dark);
 }
-.nav-main {
-    /* padding-top: 24px;*/
-    padding-left: 453px;
-    width: 254px;
-    height: 16px;
-}
+
 .list {
-    /* display: flex; */
+    display: flex;
     list-style: none;
     text-align: center;
+    padding-left: 20ś4px;
+}
+.item-head {
 }
 .header_nav {
     display: flex;
@@ -73,10 +92,10 @@ body {
     letter-spacing: 0.02em;
     padding-left: 30px;
 }
-.nav:focus {
+.header_nav:focus {
     color: #646464;
 }
-.nav:hover {
+.header_nav:hover {
     color: #646464;
 }
 .portfolio {
@@ -90,8 +109,8 @@ body {
 .contact-nav {
     display: flex;
     list-style: none;
-    /* padding-top: 8px; */
-    padding-left: 878px;
+    padding-top: 8px;
+    padding-left: 78px;
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.02em;
@@ -106,6 +125,18 @@ body {
 .link-address:focus {
     color: var(--dark);
 }
+.item-head{
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  width: 694px;
+  height: 120px;
+  margin: 0 auto;
+  margin-bottom: 30px;
+  color: #ffffff;
+  text-align: center;
+  }
 /* część main */
 .button {
     line-height: 1.6em;
@@ -172,6 +203,7 @@ body {
 /* main index.html */
 .item-head {
     background-color: var(--dark);
+    width: 1600px;
 }
 .title {
     font-size: 44px;

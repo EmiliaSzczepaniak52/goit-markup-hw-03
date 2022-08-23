@@ -4,31 +4,33 @@
         <meta charset="utf-8" />
         <meta http-equiv="x-ua-compatible" content="ie=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link
-            rel="stylesheet"
-            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
-        />
+       
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.0.0/modern-normalize.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
         <title>Studio</title>
         <link rel="stylesheet" href="css/styles.css" />
 </head>
 <body>
-    <header>
-        <div class="item-header">
-        <div class="container">
-            <div class="logo">
-                        <a class="logo-link" href="index.html">
-                            <span class="web">Web</span>Studio
-                        </a>
-            </div>
+<header>
+          <div class="container">
+          <div class="item-header">
+              
             <nav class="navigation">
+                <a class="logo" href="index.html">
+                <span class="web">Web</span>Studio
+                </a>
                 <ul class="list header_nav">
-                            <li class="nav">Agencja</li>
-                            <li class="nav">
+                    <li class="header_nav">Agencja</li>
+                    <li class="header_nav">
                                 <a href="portfolio.html" class="portfolio"
-                                    >Portfolio</a
-                                >
-                            </li>
-                            <li class="nav">Kontakt</li>
+                                    >Portfolio</a>
+                    </li>
+                    <li class="header_nav">Kontakt</li>
                 </ul>
             </nav>
             <ul class="contact-nav">
@@ -41,60 +43,49 @@
                         <a href="tel:+48111111111" class="link-address"
                             >+48 111 111 111</a>
                     </li>
-            </ul>
+                </ul>
         </div>
-                
-            <section class="item-head section">
-             
-                    <h1 class="title">
-                        EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
-                    </h1>
-
-                    <button type="button" class="box-frist">
-                        Złóż zamówienie
-                    </button>
-                </div>
-            </section>
-        </header>
-        <main>
-            <div class="container">
-                <div class="fature">
-                    <ul class="lorem">
-                        <li class="lorem-list">
-                            <p class="header-text">Loren Ipsum</p>
-                            <p class="text">
-                                Lorem ipsum, dolor sit amet consectetur
-                                adipisicing elit.
-                            </p>
-                        </li>
-                        <li class="lorem-list">
-                            <p class="header-text">Loren Ipsum</p>
-                            <p class="text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Hic est quia neque atque qui
-                                facilis ipsum architecto officiis.
-                            </p>
-                        </li>
-                        <li class="lorem-list">
-                            <p class="header-text">Loren Ipsum</p>
-                            <p class="text">
-                                Lorem ipsum dolor sit amet consectetur,
-                                adipisicing elit. Similique deleniti qui sunt
-                                impedit placeat perspiciatis iusto nostrum
-                                quasi.
-                            </p>
-                        </li>
-                        <li class="lorem-list">
-                            <p class="header-text">Loren Ipsum</p>
-                            <p class="text">
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing elit. Totam porro suscipit eveniet
-                                cumque dolores aliquam ducimus. Aut, doloribus.
-                            </p>
-                        </li>
-                    </ul>
-                </div>
-                <section id="item-list section">
+        </div>
+</header>
+<main>
+<div class="container">
+    <section class="item-head section">
+       <h1 class="header">EFEKTYWNE ROZWIĄZANIA DLA WASZEGO      BIZNESU            
+        </h1>
+        <button type="button" class="box-frist">Złóż zamówienie
+        </button>
+    </section>
+      
+    <section class="fature section">
+        <ul class="lorem">
+            <li class="lorem-list">
+              <h3 class="header-text">Loren Ipsum</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur
+                    adipisicing elit. Hic est quia neque atque qui
+                    facilis ipsum architecto officiis.
+                </p>
+            </li>
+            <li class="lorem-list">
+                <h3 class="header-text">Loren Ipsum</h3>
+                <p class="text">
+                    Lorem ipsum dolor sit amet consectetur,
+                    adipisicing elit. Similique deleniti qui sunt
+                    impedit placeat perspiciatis iusto nostrum
+                    quasi.
+                </p>
+            </li>
+            <li class="lorem-list">
+                <h3 class="header-text">Loren Ipsum</h3>
+                  <p class="text">
+                 Lorem ipsum dolor sit amet consectetur
+                 adipisicing elit. Totam porro suscipit eveniet
+                 cumque dolores aliquam ducimus. Aut, doloribus.
+                </p>
+             </li>
+        </ul>
+    </section>
+    <section id="item-list section">
                     <h2 class="list-header">Czym się zajmujemy?</h2>
                     <img
                         src="images/box1.jpg"
@@ -114,9 +105,9 @@
                         width="370"
                         height="294"
                     />
-                </section>
+    </section>
 
-                <section  class="section">
+    <section  class="section">
                     <h2 class="list-header">Nasz zespół</h2>
 
                     <ul class="he-she">
@@ -129,7 +120,7 @@
                                     alt="team_card1"
                                 />
                                 <figcaption>
-                                    <p>John Doe</p>
+                                    <h4>John Doe</h4>
                                     <p>Product Designer</p>
                                 </figcaption>
                             </figure>
@@ -144,7 +135,7 @@
                                     alt="team_card2"
                                 />
                                 <figcaption>
-                                    <p>John Doe</p>
+                                    <h4>John Doe</h4>
                                     <p>Frontend Developer</p>
                                 </figcaption>
                             </figure>
@@ -159,7 +150,7 @@
                                     alt="team_card3"
                                 />
                                 <figcaption>
-                                    <b>John Doe</b>
+                                    <h4>John Doe</h4>
                                     <p>Marketing</p>
                                 </figcaption>
                             </figure>
@@ -174,16 +165,16 @@
                                     alt="team_card4"
                                 />
                                 <figcaption>
-                                    <b>John Doe</b>
+                                    <h4>John Doe</h4>
                                     <p>UI Designer</p>
                                 </figcaption>
                             </figure>
                         </li>
                     </ul>
-                </section>
-            </div>
-        </main>
-        <footer class="container footer">
+    </section>                
+</div>
+</main>
+<footer class="footer">
             <div class="container">
             <div class="logo">
                 <a href="index.html" class="logo-item"
@@ -198,18 +189,16 @@
                     <li class="nav_footer">
                         <a  href="emailto:info@example.com"
                             class="link-address"
-                            title="portfolio"
-                            >info@devstudio.com</a
-                        >
+                            title="portfolio">info@devstudio.com</a>
                     </li>
                     <li class="nav_footer">
                         <a href="tel:+48111111111" class="link-address"
                             >+48 111 111 111</a
-                        >
+                        >ż
                     </li>
                 </ul>
             </section>
 
-        </footer>
+</footer>
 </body>
 </html>
