@@ -1,13 +1,15 @@
 *,
 *::before,
 *::after {
+    margin: 0px;
+    padding: 0px;
     box-sizing: border-box;
 }
 .container {
     width: 1200px;
     padding: 0;
     margin: auto;
-    /* background-color: pink; */
+    border: 2px solid red;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -15,11 +17,11 @@ body {
     font-weight: 500;
     background-color: #fff;
     margin: 0;
-    padding: 0;
 }
+
 .item-header {
-    width: 1200px;
-    height: 80px;
+    /* height: 80px; */
+    display: box;
 }
 .logo {
     font-weight: 700;
@@ -54,14 +56,15 @@ body {
     /* padding-top: 8px; */
     padding-left: 453px;
     width: 254px;
-    /* height: 16px;  */
+    height: 16px;
 }
 .list {
-    display: flex;
+    /* display: flex; */
     list-style: none;
     text-align: center;
 }
 .nav {
+    display: flex;
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.02em;
@@ -84,7 +87,7 @@ body {
 .contact-nav {
     display: flex;
     list-style: none;
-    /* padding-top: 32px; */
+    padding-top: 32px;
     padding-left: 878px;
     font-size: 14px;
     line-height: 1.14em;
