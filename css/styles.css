@@ -40,17 +40,18 @@ ul {
     padding-bottom: 94px;
 }
 .item-header {
+    /* align-content: space-around; */
     height: 80px;
-    width: 1200px;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: center;
+    border: 2px solid blue;
 }
 .navigation {
     display: flex;
-
-    /* padding-left: 215px; */
-    /* align-items: center; */
+    align-items: center;
+    margin-left: 0;
+    justify-content: space-around;
 }
 .logo {
     font-weight: 700;
@@ -60,7 +61,6 @@ ul {
     font-family: "Raleway", sans-serif;
     text-decoration: none;
     color: var(--black);
-    display: block;
 }
 .list li:nth-child(2) {
     padding: 0 48px;
@@ -112,8 +112,6 @@ ul {
 .contact-nav {
     display: flex;
     list-style: none;
-    /* padding-top: 8px;
-    padding-left: 78px; */
     font-size: 14px;
     line-height: 1.14em;
     letter-spacing: 0.02em;
@@ -305,38 +303,28 @@ ul {
 .footer {
     background-color: var(--dark);
     color: var(--white);
-
-    /* height: 252px; */
-    /* padding: 10px; */
-}
-.logo-item {
-    text-decoration: none;
-    color: black;
 }
 .logo-address {
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
-    border: 2px solid blue;
-
-    flex-direction: column;
-    justify-content: start;
 }
-/* .contact {
-   
+.footer {
+    flex-direction: column;
+    align-content: flex-start;
+}
+.contact-footer {
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71em;
- 
-} */
+    list-style: none;
+}
 .nav_footer {
     line-height: 1.14em;
     letter-spacing: 0.02em;
     list-style: none;
-    justify-content: left;
-    border: 2px solid blue;
 }
 a[title] {
     text-decoration: underline;
