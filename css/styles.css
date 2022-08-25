@@ -1,8 +1,8 @@
 *,
 *::before,
 *::after {
-    margin: 0px;
-    padding: 0px;
+    margin: 0 auto;
+    padding: 0;
     box-sizing: border-box;
 }
 
@@ -140,7 +140,7 @@ ul {
     text-transform: uppercase;
     color: #ffffff; */
 }
-*/
+
 /* część main */
 .button {
     line-height: 1.6em;
@@ -244,16 +244,12 @@ ul {
     cursor: pointer;
     background-color: var(--blue);
 }
-.fature {
-    width: 1140px;
-    height: 101px;
-    justify-content: space-between;
-}
+
 .lorem {
-    width: 1140px;
-    height: 101px;
+    /* width: 1140px;
+    height: 101px; */
     display: flex;
-    /* flex-wrap: wrap; */
+    flex-wrap: wrap;
     gap: 10px;
 }
 .lorem-list {
@@ -270,7 +266,7 @@ ul {
     letter-spacing: 0.03em;
     color: #757575;
     text-align: justify;
-    flex-basis: calc((100% - 2 * 15px) / 3);
+    flex-basis: calc((100% - 2 * 15px) / 4);
 }
 .header-text {
     text-align: left;
@@ -279,39 +275,37 @@ ul {
     font-weight: 700;
     font-size: 36px;
     line-height: 42px;
-    text-align: center;
+    /* text-align: center; */
     letter-spacing: 0.03em;
     color: #212121;
+    justify-content: space-between;
     /* width: 352px;
     height: 42px; */
     font-family: "Roboto";
     font-size: 36px;
     line-height: 1.17;
-    padding-bottom: 50px;
+    /* padding-bottom: 50px; */
 }
 .team {
-    width: 1200px;
-    height: 648px;
-    background: #f5f4fa;
-    padding-bottom: 0;
+    /* width: 1200px; */
+    /* height: 648px; */
+    background-color: #f5f4fa;
+    /* padding-bottom: 0; */
     justify-content: center;
 }
 .he-she {
     display: flex;
-    /* flex-wrap: wrap; */
     gap: 30px;
-    justify-content: space-between;
 }
 .our {
-    width: 1200px;
-    height: 648px;
     list-style: none;
-    flex-basis: calc((100% - 2 * 15px) / 4);
+    /* flex-basis: calc((100% - 2 * 15px) / 4); */
 }
 /* footer */
 .footer {
     background-color: var(--dark);
     color: var(--white);
+
     /* height: 252px; */
     /* padding: 10px; */
 }
@@ -324,18 +318,25 @@ ul {
     font-size: 14px;
     line-height: 1.71em;
     letter-spacing: 0.03em;
+    border: 2px solid blue;
+
+    flex-direction: column;
+    justify-content: start;
 }
-.contact {
-    letter-spacing: 0.03em;
+/* .contact {
+   
     color: rgba(255, 255, 255, 0.6);
     font-weight: 400;
     font-size: 14px;
     line-height: 1.71em;
-}
+ 
+} */
 .nav_footer {
     line-height: 1.14em;
     letter-spacing: 0.02em;
     list-style: none;
+    justify-content: left;
+    border: 2px solid blue;
 }
 a[title] {
     text-decoration: underline;
