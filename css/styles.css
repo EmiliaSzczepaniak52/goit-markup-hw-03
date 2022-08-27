@@ -153,6 +153,9 @@ ul {
     background-color: #f5f4fa;
     cursor: pointer;
 }
+.img-section {
+    padding-top: 0;
+}
 
 .box1 {
     width: 121px;
